@@ -1,0 +1,22 @@
+{
+  "name": "duncgeon-runner",
+  "version": "1.0.0",
+  "description": "Dungeon Runner Game by Gavr Games",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "keywords": [],
+  "author": "Gavr Games",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "babylonjs": "^4.0.3",
+    "js-event-bus": "^1.0.0"
+  }
+}
